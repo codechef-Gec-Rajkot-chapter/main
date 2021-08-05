@@ -44,13 +44,16 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
     <title> GEC-Rajkot | Codechef</title>
 </head>
 
 <body>
 
     <header id="header" class="header">
-        <a href="index.html" class="logo">GEC-Rajkot Chapter</a>
+        <a href="index.html" class="logo"><img src="image/logo_100_PX.png" style="margin: -4px;" /><span> GEC-Rajkot
+                Chapter</span></a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
         </a>
@@ -58,6 +61,7 @@
             <li><a href="#banner">Home</a></li>
             <li><a href="#vision">Vision</a></li>
             <li><a href="#mission">Mission</a></li>
+            <li><a href="#past-event">Past Events</a></li>
         </ul>
 
     </header>
@@ -89,7 +93,8 @@
     </section>
     <section class="sidebar-section">
         <h1>Our Team</h1>
-        <div class="slider owl-carousel">
+        <div class="slider owl-carousel" id="slider">
+
             <div class="card">
                 <div class="img"><a target="_blank" href="https://www.linkedin.com/in/hareshrathod/"><img
                             src="image/harsh_Rathod.png" alt=""></a></div>
@@ -99,7 +104,7 @@
                     <div class="btn">
                         <button> <a target="_blank" href="https://www.linkedin.com/in/hareshrathod/"><i
                                     class="fa fa-linkedin" aria-hidden="true"></i></a></button>
-                        <!---<button><a target="_blank" href=""><i class="fa fa-github" aria-hidden="true"></i></a></button> --->
+                        <button><a target="_blank" href=""><i class="fa fa-github" aria-hidden="true"></i></a></button>
                         <button><a target="_blank" href="https://www.instagram.com/haresh4d/"><i class="fa fa-instagram"
                                     aria-hidden="true"></i></a></button>
                         <button><a target="_blank" href="https://www.facebook.com/haresh.rathod"><i
@@ -124,7 +129,8 @@
                                     aria-hidden="true"></i></a></button>
                         <button><a target="_blank" href="https://www.instagram.com/shaktirajsinh_0/"><i
                                     class="fa fa-instagram" aria-hidden="true"></i></a></button>
-                        <!-- <button><a target="_blank" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></button> -->
+                        <button><a target="_blank" href="#"><i class="fa fa-facebook"
+                                    aria-hidden="true"></i></a></button>
                         <button><a target="_blank" href="https://twitter.com/GShaktirajsinh"><i class="fa fa-twitter"
                                     aria-hidden="true"></i></a></button>
                     </div>
@@ -161,8 +167,10 @@
                                     class="fa fa-linkedin" aria-hidden="true"></i></a></button>
                         <button><a target="_blank" href="https://github.com/janvi-desai"><i class="fa fa-github"
                                     aria-hidden="true"></i></a></button> -
-                        <!-- <button><a target="_blank" href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></button> -->
-                        <!-- <button><a target="_blank" href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></button> -->
+                        <button><a target="_blank" href=""><i class="fa fa-instagram"
+                                    aria-hidden="true"></i></a></button>
+                        <button><a target="_blank" href=""><i class="fa fa-facebook"
+                                    aria-hidden="true"></i></a></button>
                         <button><a target="_blank" href="https://mobile.twitter.com/Janvi1720"><i class="fa fa-twitter"
                                     aria-hidden="true"></i></a></button>
                     </div>
@@ -179,8 +187,10 @@
                                     class="fa fa-linkedin" aria-hidden="true"></i></a></button>
                         <button><a target="_blank" href="https://github.com/Saurav-Sutaria"><i class="fa fa-github"
                                     aria-hidden="true"></i></a></button>
-                        <!-- <button><a target="_blank" href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></button> -->
-                        <!-- <button><a target="_blank" href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></button> -->
+                        <button><a target="_blank" href=""><i class="fa fa-instagram"
+                                    aria-hidden="true"></i></a></button>
+                        <button><a target="_blank" href=""><i class="fa fa-facebook"
+                                    aria-hidden="true"></i></a></button>
                         <button><a target="_blank" href="https://twitter.com/SauravSutaria?s=09"><i
                                     class="fa fa-twitter" aria-hidden="true"></i></a></button>
                     </div>
@@ -200,47 +210,109 @@
         <img src="image/mission.png" class="mission-img" alt="">
     </section>
 
+    <section class="sidebar-section ">
+        <h1 id="past-event">Past Events</h1>
+        <div class=" owl-carousel past-event-slider">
+            <div class="card">
+                <div class="img"><a target="_blank" href="#"><img src="image/codethon.jpg" alt=""></a></div>
+                <div class="content">
+                    <div class="title" id="faname">Codethon</div>
+                    <div class="sub-title">Date : 28 November 2020</div>
+                    <div class="btn">
+                        <button disabled>
+                            <a target="_blank" href="#">
+                                <i class="far fa-play-circle"></i> Watch Now
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img"><a target="_blank" href="https://www.youtube.com/watch?v=cO8NcB4lSSg&pp=sAQA"><img
+                            src="image/warmingupwithcp.jpg" alt=""></a></div>
+                <div class="content">
+                    <div class="title" id="faname">Warming Up With Cp</div>
+                    <div class="sub-title">Date : 20 December 2020</div>
+                    <div class="btn">
+                        <button> <a target="_blank" href="https://www.youtube.com/watch?v=cO8NcB4lSSg&pp=sAQA"><i
+                                    class="far fa-play-circle"></i> Watch
+                                Now</a></button>
+                    </div>
+                </div>
+            </div>
 
-    <!-- <section class="sidebar-section">
-        <h1>CO-Partner</h1>
-        <div class="slider owl-carousel">
             <div class="card">
-                <div class="img"><a target="_blank" href="https://www.linkedin.com/in/hareshrathod/"><img
-                            src="image/DSC.png" alt=""></a></div>
+                <div class="img"><a target="_blank" href="https://www.youtube.com/watch?v=5FkBbYVegrk&pp=sAQA"><img
+                            src="image/creckdown1.jpeg" alt=""></a></div>
                 <div class="content">
-                    <div class="title"> DSC GECR</div>
-                    <div class="sub-title">Devloper Student Club</div>
+                    <div class="title" id="faname">Crackdown.cpp <span style="font-size: 10px;">(Session-1)</span></div>
+                    <div class="sub-title">Date : 9 January 2021</div>
                     <div class="btn">
-                        <button> <a target="_blank" href="https://www.linkedin.com/in/hareshrathod/"><i
-                                    class="fa fa-linkedin" aria-hidden="true"></i></a></button>
-                        <button><a target="_blank" href=""><i class="fa fa-github" aria-hidden="true"></i></a></button>
-                        <button><a target="_blank" href=""><i class="fa fa-instagram"
-                                    aria-hidden="true"></i></a></button>
-                        <button><a target="_blank" href="https://www.facebook.com/haresh.rathod"><i
-                                    class="fa fa-facebook" aria-hidden="true"></i></a></button>
+                        <button> <a target="_blank" href="https://www.youtube.com/watch?v=5FkBbYVegrk&pp=sAQA"><i
+                                    class="far fa-play-circle"></i> Watch
+                                Now</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><a target="_blank" href="https://www.youtube.com/watch?v=02ECBLFSM64&pp=sAQA"><img
+                            src="image/creckdown2.png" alt=""></a></div>
+                <div class="content">
+                    <div class="title" id="faname">Crackdown.cpp <span style="font-size: 10px;">(Session-2)</span>
+                    </div>
+                    <div class="sub-title">Date : 10 January 2021</div>
+                    <div class="btn">
+                        <button> <a target="_blank" href="https://www.youtube.com/watch?v=02ECBLFSM64&pp=sAQA"><i
+                                    class="far fa-play-circle"></i> Watch
+                                Now</a></button>
                     </div>
                 </div>
             </div>
             <div class="card">
-                <div class="img"><a target="_blank" href="https://www.linkedin.com/in/jeet-patel-b7a90316a/"><img
-                            src="image/codechef.jpg" alt=""></a></div>
+                <div class="img"><a target="_blank" href="#"><img src="image/clashofcode.jpg" alt=""></a></div>
                 <div class="content">
-                    <div class="title">Codechef</div>
-                    <div class="sub-title">President</div>
+                    <div class="title" id="faname">ClashOfCode</div>
+                    <div class="sub-title">Date : 15 to 17 February 2021</div>
                     <div class="btn">
-                        <button><a target="_blank" href="https://www.linkedin.com/in/jeet-patel-b7a90316a/"><i
-                                    class="fa fa-linkedin" aria-hidden="true"></i></a></button>
-                        <button><a target="_blank" href="https://github.com/rebeljeet"></a><i class="fa fa-github"
-                                aria-hidden="true"></i></button></a>
-                        <button><a target="_blank" href="https://www.instagram.com/jeetpatel_official__/"><i
-                                    class="fa fa-instagram" aria-hidden="true"></i></a></button>
-                        <button><a target="_blank" href="https://www.facebook.com/profile.php?id=100025112433335"><i
-                                    class="fa fa-facebook" aria-hidden="true"></i></a></button>
+                        <button disabled> <a target="_blank" href="#"><i class="far fa-play-circle"></i> Watch
+                                Now</a></button>
+
                     </div>
                 </div>
             </div>
+
+            <div class="card">
+                <div class="img"><a target="_blank" href="#"><img src="image/codathon2.0.jpg" alt=""></a></div>
+                <div class="content">
+                    <div class="title" id="faname">Codathon 2.0</div>
+                    <div class="sub-title">Date : 14 April 2021</div>
+                    <div class="btn">
+                        <button disabled> <a target="_blank" href="#"><i class="far fa-play-circle"></i> Watch
+                                Now</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><a target="_blank" href="https://www.dsacarnival.co/">
+                        <img src="image/DSA Carnival -logo.png" alt="">
+                    </a></div>
+                <div class="content">
+                    <div class="title" id="faname">DSA Carnival</div>
+                    <div class="sub-title">Date : June 2021</div>
+                    <div class="btn">
+                        <button> <a target="_blank"
+                                href="https://www.youtube.com/playlist?list=PL-Mj6qSxHpa_fw8HFdGp88LNvgfzftkxj"><i
+                                    class="far fa-play-circle"></i> Watch
+                                Now</a></button>
+                    </div>
+                </div>
+            </div>
+
         </div>
-    </section> -->
+    </section>
+
 
     <div class="footer">
         <footer>
@@ -273,8 +345,6 @@
                 <div class="sec quickLinks">
                     <h2>Executive Team Members</h2>
                     <ul>
-                        <li><a target="_blank" href="https://www.codechef.com/college-chapter/member">Kishan Patel</a>
-                        </li>
                         <li><a target="_blank" href="https://www.linkedin.com/in/niyati-kaneriya-374b27205">Niyati
                                 Kaneriya</a>
                         </li>
@@ -329,7 +399,9 @@
             </a>| Created by : <a href="http://princemakavana61.c1.biz/"> Prince Makavana</a> </p>
 
     </div>
+
 </body>
+
 <script>
 
     window.addEventListener("scroll", function () {
@@ -364,6 +436,25 @@
             }
         }
     });
+
+    $(".past-event-slider").owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: true,
+        responsive: {
+            1: {
+                items: 1, nav: false
+            },
+            800: {
+                items: 1, nav: false
+            },
+            1000: {
+                items: 2, nav: false
+            }
+        }
+    });
+
 
 
 </script>
