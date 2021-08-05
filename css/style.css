@@ -384,12 +384,12 @@ header .icon {
     font-family: 'Quicksand', sans-serif;
 }
 
-.slider {
+.slider , .past-event-slider {
     max-width: 1200px;
     margin:  auto ;
 }
 
-.slider .card {
+.slider .card  , .past-event-slider .card{
     width: 70%;
     border-radius: 10px;
     border: rgba(173, 173, 173, 0.637) 1px solid;
@@ -397,23 +397,30 @@ header .icon {
     transition: all 0.5s ease;
 }
 
-.slider .card:hover{
+.slider .card:hover , .past-event-slider .card:hover{
     width: 71%;
     box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.75);
 
 
 }
 
-.slider .card .img {
+.slider .card .img , .past-event-slider .card .img{
     width: 100%;
     flex: 1;
 }
 
-.slider .card .img img {
+.slider .card .img img  {
     height: 100%;
     width: 68%;
     padding: 25px 24px 24px 24px;
     margin: 10px auto;
+}
+
+.past-event-slider .card .img img {
+    height: 200px;
+    padding: 0;
+    margin: 0;
+
 }
 
 
@@ -435,6 +442,24 @@ header .icon {
 }
 
 
+.past-event-slider .card .content .title {
+    font-size: 25px;
+    font-family: tahoma;
+    text-align: left;
+    padding: 10px 20px;
+
+}
+
+.past-event-slider .card .content .sub-title {
+    font-size: 20px;
+    text-align: left;
+    padding: 10px 20px;
+    padding-bottom: 25px;
+    font-family: tahoma;
+    color: #2441e4;
+    line-height: 20px;
+}
+
 
 .card .content .btn {
     display: block;
@@ -447,7 +472,7 @@ header .icon {
     padding-top: 10px;
 }
 
-.card .content .btn button {
+.card .content .btn button  {
     background: transparent;
     margin: auto;
     color: #fff;
@@ -458,6 +483,22 @@ header .icon {
     cursor: pointer;
     transition: 0.5s;
 }
+.past-event-slider .card .content .btn {
+    background-color: #2441e4;
+}
+
+.past-event-slider .card .content .btn button a {
+    color: #fff !important;
+}
+.past-event-slider .card  .content .title {
+font-size: 35px;
+font-family: 'Font Awesome 5 Free';
+font-weight: bold;
+}
+.past-event-slider .card  .content .sub-title {
+    font-size: 15px;
+}
+
 
 .card .content .btn button:hover {
     transform: scale(0.9);
