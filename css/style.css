@@ -81,6 +81,7 @@ figcaption {
     --dark: #434242;
     --info: #17a2b8;
     --danger: #dc3545;
+    --lightdanger: #cf4c59;
     --gray: #767575;
     --dark-gray: #434242;
     --warning: #f7ae27;
@@ -91,7 +92,7 @@ figcaption {
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --font-family-helvatica: Helvetica, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     /* Theme Color */
-    --themecolor:linear-gradient(to right, #0622e0, #005ffb, #0086ff, #00a6f7, #00c2eb);
+    --themecolor:linear-gradient(270deg, rgba(255,48,59,1) 0%, rgba(255,55,66,0.9923319669664741) 50%, rgba(255,115,124,0.9699230033810399) 100%);
     /* Font Sizes */
     --font-normal: 18px;
     --font-small: 14px;
@@ -150,7 +151,8 @@ header {
     left: 0;
     width: 100%;
     z-index: 100000;
-    background-image: linear-gradient(to right, #0622e0db, #005ffb, #0086ffed, #00a6f78f, #00c2eb);
+    /* background-image: linear-gradient(to right, #0622e0db, #005ffb, #0086ffed, #00a6f78f, #00c2eb); */
+    background-image: var(--themecolor);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -235,7 +237,7 @@ header .icon {
     padding-top: 78px;
     display: grid;
     grid-template-columns: 1fr 1.5fr;
-    background-color: #2196F3;
+    /* background-color: #2196F3; */
     padding: 10px;
     background-image: var(--themecolor);
 }
@@ -249,7 +251,7 @@ header .icon {
 .head {
     font-size: 60px;
     font-weight: 700;
-    color: #f4f1e2;
+    color: #fff;
 }
 
 .banner-content {
@@ -265,7 +267,7 @@ header .icon {
 
 .banner-content p {
     padding: 0px 30px 20px 30px;
-    color: #f4f1e2;
+    color: #fff;
     text-align: center;
     margin: 10px;
     font-family: 'Quicksand', sans-serif;
@@ -358,7 +360,7 @@ header .icon {
 }
 
 .vision-head {
-    color: #132678;
+    color: var(--danger);
     font-size: 50px;
     font-family: 'Quicksand', sans-serif;
 }
@@ -379,7 +381,7 @@ header .icon {
     margin: 5% auto;
     width: 100%;
     text-align: center;
-    color: #132678;
+    color: var(--danger);
     font-size: 50px;
     font-family: 'Quicksand', sans-serif;
 }
@@ -437,7 +439,7 @@ header .icon {
     text-align: center;
     padding-bottom: 25px;
     font-family: tahoma;
-    color: #2441e4;
+    color: var(--danger);
     line-height: 20px;
 }
 
@@ -456,7 +458,7 @@ header .icon {
     padding: 10px 20px;
     padding-bottom: 25px;
     font-family: tahoma;
-    color: #2441e4;
+    color: var(--danger);
     line-height: 20px;
 }
 
@@ -464,7 +466,7 @@ header .icon {
 .card .content .btn {
     display: block;
     text-align: center;
-    background-color: #0086ff;
+    background-color: var(--lightdanger);
     width: 100%;
     border-bottom-right-radius: 9px;
     border-bottom-left-radius: 9px;
@@ -484,7 +486,7 @@ header .icon {
     transition: 0.5s;
 }
 .past-event-slider .card .content .btn {
-    background-color: #2441e4;
+    background-color: var(--lightdanger);
 }
 
 .past-event-slider .card .content .btn button a {
@@ -593,7 +595,7 @@ font-weight: bold;
 }
 
 .mission-head {
-    color: #132678;
+    color: var(--danger);
     font-size: 50px;
     font-family: 'Quicksand', sans-serif;
 }
@@ -657,7 +659,7 @@ footer .aboutus h2::before {
     left: 0;
     width: 50px;
     height: 2px;
-    background: #0086ff;
+    background: var(--danger);
 
 }
 
@@ -705,7 +707,7 @@ footer .quickLinks h2::before {
     left: 0;
     width: 50px;
     height: 2px;
-    background: #0086ff;
+    background: var(--danger);
 
 }
 
@@ -750,7 +752,7 @@ footer .contact h2::before {
     left: 0;
     width: 50px;
     height: 2px;
-    background: #0086ff;
+    background: var(--danger);
 
 }
 
